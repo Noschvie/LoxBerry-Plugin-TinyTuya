@@ -260,7 +260,7 @@ sub form_print
 	$navbar{30}{active} = 1 if $q->{form} eq "mqtt";
 
 	$navbar{40}{Name} = "$L{'COMMON.LABEL_TINYTUYAWEBUI'}";
-	$navbar{40}{URL} = "http://$ENV{SERVER_NAME}:8888";
+	$navbar{40}{URL} = "http://$ENV{SERVER_NAME}:8899";
 	$navbar{40}{target} = "_blank";
 	$navbar{40}{active} = 1 if $q->{form} eq "tinytuyawebui";
 
